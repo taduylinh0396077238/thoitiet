@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*  */   
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+
+.header {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header_all3 {
+    display: flex;
+    flex-direction: column;
+    background-color: thistle;
+    border-radius: 2px;
+    margin: 2px;
+    height: 390px;
+    width: 300px;
+    align-items: center;
+}
+.header_title {
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 200;
+    width: 300px;
+}
+
+.body {
+    width: 300px;
+    display: block;
+    justify-content: unset;
+    line-height: 32px;
+    }
